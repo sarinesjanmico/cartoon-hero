@@ -2,30 +2,78 @@ body {
 	margin: 0;
 	font-family: 'Carter One', cursive;
 	font-size: 20px;
+	background-image: url(img/speed.jpg);
+	background-size: cover;
 }
 
 header {
-	background-color: #202020;
-	text-align: center;
+	background-image: url(img/diobg2.jpg);
+	background-size: auto;
+	text-align: start;
+	padding-left: 50px;
 	padding-top: 50px;
-	padding-bottom: 50px; 
+	padding-bottom: 90px; 
 }
+
 
 header h1{
 	color: white;
 	font-family: 'Reggae One', cursive, sans-serif;
-	font-size: 50px;
+	font-size: 28px;
+	text-align: start;
+	padding-top: 20px;
+	margin-left: 100px;
+	text-shadow: 10px 8px 10px black;
+	margin-top: 360px;
 }
+
+.japan {
+	margin-left: -40px;
+	margin-top: 15px;
+}
+
+
 
 h1, h2{
 	font-family: 'Reggae One', cursive, sans-serif;
 }
 
-h2 {
+
+div h5 {
+	text-shadow: 2px 2px 4px black;
 	font-size: 30px;
-	color: #ff8800; 
+	padding-bottom: 350px;
+	
+}
+
+h2 {
+	text-decoration: underline;
+	padding-bottom: 30px;
+	font-size: 30px;
+	color: white; 
+	text-shadow: 2px 2px 4px black;
 	margin: 40px 0 10px;
 }
+
+p, li {
+	color: white;
+	text-shadow: 2px 2px 4px black;
+	padding-bottom: 30px;
+}
+
+.carousel {
+	border: 6px solid black;
+}
+
+.ability {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -150px;
+  margin-bottom: -130px;
+
+}
+
 
 a { 
 	color: #ff8800;
@@ -37,10 +85,12 @@ a:hover {
 }
 
 footer {
-	background-color: #202020;
-	text-align: center;
+	text-align: start;
 	color: white;
 	padding: 50px;
+	background-image: url(img/diobg2.jpg);
+	background-size: auto;
+}
 }
 
 footer a{
@@ -49,6 +99,7 @@ footer a{
 
 footer p{
 	margin: 0;
+	size: 1000px;
 }
 
 footer a:hover {
@@ -58,11 +109,26 @@ footer a:hover {
 
 
 
-header img{
+.dio {
+	background-image: url(img/dio.jpg);
+	background-size: cover;
 	width: 380px;
 	height: 360px;
-	border-radius: 300px;
-	border: 20px solid #ffee32;
+	border-radius: 20px;
+	border: 5px solid white;
+	margin-bottom: 50px;
+	margin-left: 150px;
+}
+
+.dio:hover {
+	background-image: url(img/dio3.gif);
+	background-position: center;
+	transition: background-image .3s ease;
+}
+
+
+header img:hover {
+	background-color: red;
 }
 
 main {
